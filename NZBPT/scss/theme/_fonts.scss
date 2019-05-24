@@ -1,0 +1,19 @@
+$header-font: 'Roboto', sans-serif;
+$subheader-font: 'Montserrat', sans-serif;
+$paragraph-font: 'Open Sans', sans-serif;
+
+// Pre defined values for common text values
+h1 {
+    font-family: $header-font;
+    margin: 0;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: $subheader-font;
+}
+
+p {
+    font-family: $paragraph-font;
+}

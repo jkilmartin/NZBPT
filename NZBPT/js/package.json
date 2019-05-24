@@ -1,0 +1,22 @@
+{
+  "name": "circuit-estate",
+  "version": "1.0.5",
+  "description": "Website Redesign For Circuit Estate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkilmartin/circuit-estate.git"
+  },
+  "author": "Jack Kilmartin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jkilmartin/circuit-estate/issues"
+  },
+  "homepage": "https://github.com/jkilmartin/circuit-estate#readme",
+  "dependencies": {
+    "bulma": "^0.7.1"
+  }
+}

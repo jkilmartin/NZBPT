@@ -1,0 +1,22 @@
+.main-image {
+    width: 100%;
+    height: 350px; 
+    // Object fit is used, so the images viewport isn't stuffed up.
+    object-fit: cover;
+    @include mq('tablet','max') {
+        height: 150px;
+        // this changes the height of the image so it isn't as long on the mobile view
+    }
+}
+
+.banner-image {
+    background-color: $primary-blue;
+}
+
+.navbar-menu {
+    background-color: $primary-blue;
+
+    a {
+        color: $primary-white;
+    }
+}

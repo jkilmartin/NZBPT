@@ -1,0 +1,24 @@
+footer {
+    background-color: $primary-blue;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    // added a little padding so it doesn't look tacky
+
+    .footer-ul {
+        text-align: center;
+        // keeping a simplistic footer going
+    
+        li {
+            display: inline;
+            padding-right: 25px;
+        }  
+    
+        a {
+            color: $primary-white;
+        }
+    
+        a:hover {
+            color: $secondary-blue;
+        }
+    }
+}
